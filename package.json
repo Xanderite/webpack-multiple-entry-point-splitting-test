@@ -1,0 +1,12 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "bundle.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^0.8.5",
+    "webpack": "^1.12.14"
+  }
+}
