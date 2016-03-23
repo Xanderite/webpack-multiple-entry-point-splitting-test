@@ -46,26 +46,30 @@
 
 	__webpack_require__(1)
 
-	var appPng = __webpack_require__(2)
-	var sharedPng =  __webpack_require__(3)
+	var appPng = __webpack_require__(3)
+
 
 /***/ },
 /* 1 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	document.write('Hello World!');
+
+	var sharedPng =  __webpack_require__(2)
+
+
 
 /***/ },
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "src/images//appB.png";
+	module.exports = __webpack_require__.p + "images/shared.png";
 
 /***/ },
 /* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "src/images//shared.png";
+	module.exports = __webpack_require__.p + "images/appB.png";
 
 /***/ }
 /******/ ]);
